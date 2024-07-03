@@ -1,0 +1,331 @@
+
+  
+
+  .container
+    {
+     background-color:rgb(199, 192, 192); box-shadow:0 0 3px rgb(8, 0, 0); 
+     border:solid 2px black;
+     border-top-left-radius:15px; border-bottom-right-radius:15px; 
+     padding:7px;
+     width:max-content; height:max-content;
+     position:absolute; top:15%; left:50%;
+     transform:translateX(-50%)
+     }
+
+  .display-section
+    {display:grid;
+     grid-template-rows:1fr 1fr; row-gap:2px;
+     background-color:white;border-radius:7px;
+     border:2px solid green; padding:2px;
+     height:max-content; width:250px;
+    }
+
+    #display
+     {text-align:center; color:blue; font-size:20px;
+     font-weight:bolder;border:none; 
+     height:39px; width:250px;
+     outline:none;}
+
+    .display2
+     {text-align:center; color:red; font-size:x-large;
+     font-weight:bolder; border:none;
+     height:39px; width:250px;
+     outline:none;}
+
+
+
+  .buttons-section
+   {display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    row-gap:2px;
+    height:max-content;
+    margin-top:5px; 
+    border:2px solid green; border-radius:7px;
+    padding:3px 0px;}
+
+    .calc_buttons
+     {display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      column-gap:2px;
+      justify-self:stretch;
+      padding:2px; margin-left:5px;}
+
+    .calc_buttons2
+     {display:grid;
+      grid-template-columns:1fr 1fr;
+      column-gap:7px;
+      justify-content:space-between;
+      order:2px solid blue;
+      padding:3px; margin-left:9px;}
+
+    .calc_buttons3
+     {display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      column-gap:2px;
+      padding:2px; margin-left:5px;}
+
+    #buttons
+     {color:white;
+      background-color:rgb(5, 0, 0);
+      font-size:18px; font-weight:bolder;
+      border-radius:24px;text-align:center;
+      height:48px;width:48px;border:none;
+      box-shadow:0 0 5px rgb(255, 69, 0);
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsss
+     {color:black;
+      background-color:orangered;
+      font-size:18px; font-weight:bolder;
+      border-radius:24px;text-align:center;
+      height:48px;width:48px;border:none;
+      box-shadow:0 0 5px rgb(5, 0, 0);
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsssss
+     {color:black;
+      background-color:orangered;
+      font-size:18px; font-weight:bolder;
+      border-radius:100px;text-align:center;
+      height:48px;width:99px;border:none;
+      box-shadow:0 0 5px rgb(5, 0, 0);
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsssssss
+     {color:black;
+      background-color:orangered;
+      font-size:18px; font-weight:bolder;
+      border-radius:24px;text-align:center;
+      height:48px;width:48px;border:none;
+      box-shadow:0 0 5px rgb(5, 0, 0);
+      transition:all 0.76s ease-in-out;}
+
+
+    #buttons:hover
+     {color:blue;
+      background-color:yellow; cursor:pointer;
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsss:hover
+     {color:blue;
+      background-color:yellow; cursor:pointer;
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsssss:hover
+     {color:blue;
+      background-color:yellow; cursor:pointer;
+      transition:all 0.76s ease-in-out;}
+
+    #buttonsssssss:hover
+     {color:blue;
+      background-color:yellow; cursor:pointer;
+      transition:all 0.76s ease-in-out;}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************
+   #container
+     {background-color:aqua; box-shadow:0 0 3px rgb(8, 0, 0); 
+     border-style:solid; border-width:2px; border-color:navy; border-radius:10px; width:245px; height:325px;
+     position:absolute; left:375px; top:95px;}
+
+   #heading4
+     {background-color:white; color:navy; font-size:x-large; font-weight:bolder; position:absolute; bottom:275px; left:43px; border-style:double; border-color:navy; border-radius:1px;}
+
+   #heading4:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #display
+     {background-color:white; text-align:center; color:blue; font-size:x-large; font-weight:bolder; border-style:solid; border-radius:3px; border-color:red; width:230px; height:39px; position:absolute; top:31px; left:8px;
+     text-shadow:0 0 1px rgb(8, 0, 0);}
+
+   #display:hover
+     {color:blue; cursor:pointer;}
+
+   .calc_buttons
+     {position:relative; font-weight:bold;}
+
+   
+
+   
+   #calc_buttons1
+     {position:absolute; top:28px; left:8px;}
+
+   #calc_buttons2
+     {position:absolute; top:78px; left:8px;}
+
+   #calc_buttons3
+     {position:absolute; top:128px; left:8px;}
+
+   #calc_buttons4
+     {position:absolute; top:178px; left:8px;}
+
+   #calc_buttons5
+     {position:absolute; top:228px; left:8px;}
+
+    
+   #button1
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button2
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button3
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button4
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button5
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button6
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     width:55px; height:45px; box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button7
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button8
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+     
+   #button9
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button10
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button11
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button12
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button13
+     {background-color:black; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+    
+   #button14
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   #button15
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+     
+   #button16
+     {background-color:red; color:navy;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+   
+   #button17
+     {background-color:navy; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+     
+   #button18
+     {background-color:navy; color:white;
+     border-style:none; border-radius:5px; font-weight:bolder;
+     box-shadow:0 0 5px rgb(8, 0, 0);}
+
+
+   #button1:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button2:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button3:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button4:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button5:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button6:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button7:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button8:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button9:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button10:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button11:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button12:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button13:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button14:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button15:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button16:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button17:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+   #button18:hover
+     {color:blue; background-color:yellow; cursor:pointer;}
+
+
+
+
+     ***************************************/
