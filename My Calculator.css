@@ -256,65 +256,7 @@
      
    #button16
      {background-color:red; color:navy;
-     border-style:none; border-radius:5px; font-weight:bolder;
-     box-shadow:0 0 5px rgb(8, 0, 0);}
-
-   
-   #button17
-     {background-color:navy; color:white;
-     border-style:none; border-radius:5px; font-weight:bolder;
-     box-shadow:0 0 5px rgb(8, 0, 0);}
-     
-   #button18
-     {background-color:navy; color:white;
-     border-style:none; border-radius:5px; font-weight:bolder;
-     box-shadow:0 0 5px rgb(8, 0, 0);}
-
-
-   #button1:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button2:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button3:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button4:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button5:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button6:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button7:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button8:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button9:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button10:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button11:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button12:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button13:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button14:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
-
-   #button15:hover
-     {color:blue; background-color:yellow; cursor:pointer;}
+-color:yellow; cursor:pointer;}
 
    #button16:hover
      {color:blue; background-color:yellow; cursor:pointer;}
